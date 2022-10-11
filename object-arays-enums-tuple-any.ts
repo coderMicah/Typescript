@@ -52,3 +52,7 @@ const role:[number,string] = [10, 'author']
 //or you can define your custom roles and types
 // i.e enum Role {ADMIN ='ADMIN', READ_ONLY=100, AUTHOR=200}
 enum Role {ADMIN, READ_ONLY, AUTHOR}
+
+//Any(*)
+// Flexible , it gives you experience as JS any type is OK
+//Do not fallback to any if you dont need to
