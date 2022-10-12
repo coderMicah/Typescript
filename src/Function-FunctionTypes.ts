@@ -1,6 +1,6 @@
 
 
-function add(n1:number, n2:number) {
+function addNum(n1:number, n2:number) {
     return n1+n2
 }
 
@@ -11,7 +11,7 @@ function printResult(num:number): void {
    console.log(`Result` + num);
 }
 
-printResult(add(5,122))
+printResult(addNum(5,122))
 
 //Function type allows us to define which type of function we want to use somewhere
 //allows us defune the exp[ected params and return type
