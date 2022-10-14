@@ -1,4 +1,1 @@
-let username: string = "John";
-
-username = '1'
-console.log(username);
+//code goes here
