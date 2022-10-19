@@ -107,7 +107,10 @@
     "**/Function-FunctionTypes.ts",
     "**/object-arays-enums-tuple-any.ts",
     "**/Union-Literals-Alias.ts",
-    "**/analytics.ts"
+    "**/analytics.ts",
+    "**/Next-gen-JS.ts",
+    "**/00P.ts",
+    "**/Classes-properties-methods.ts"
 
  ],
 //  only files you want to compile
