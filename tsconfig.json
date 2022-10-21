@@ -111,7 +111,6 @@
     "**/Next-gen-JS.ts",
     "**/00P.ts",
     "**/Classes-properties-methods.ts"
-
  ],
 //  only files you want to compile
 //  "files":[]

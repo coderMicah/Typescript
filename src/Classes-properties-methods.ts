@@ -116,3 +116,5 @@ console.log(ac);
 
 
 
+//abstract classes : define abstract properties and methods i.e must be used 
+//in inherited classes 
