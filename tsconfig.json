@@ -110,11 +110,18 @@
     "**/analytics.ts",
     "**/Next-gen-JS.ts",
     "**/00P.ts",
-    "**/Classes-properties-methods.ts"
+    "**/Classes-properties-methods.ts",
+    "**/interface.ts",
+    "**/intersection-types.ts",
+    "**/descriminated-union.ts",
+    "**/typecasting.ts",
+    "**/fn-overloads.ts",
+    "**/opyional-chaining.ts"
+
  ],
 //  only files you want to compile
 //  "files":[]
 
 //  things to be included when we want to compile
-//  "include":[]
+ "include":[]
 }
