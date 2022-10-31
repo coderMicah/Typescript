@@ -9,5 +9,5 @@
 
 
 //Method two is suitable with JSX files
-const userInput =<HTMLInputElement> document.getElementById('user-input')! as HTMLInputElement
+const userInput = document.getElementById('user-input')! as HTMLInputElement
 userInput.value = 'Type Casting'

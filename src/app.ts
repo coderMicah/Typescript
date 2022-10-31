@@ -1,16 +1,16 @@
-//when you get data from external source and u dont know if a property doesnt exist
-//access nested objects , to avoid runtime errors when checking 
+//Generic types:is a type which is kind connected with other type and
+// flexible regarding which exact type other type is
+//example Array in TS are generic types array themselves are type(list of objects)
+//but with TS with specify what type of objects(items) array can hold and taht makes it a Generic Type
 
 
-const fetchedData = {
-    ID:"U1",
-    name:'John',
-    job:{title:"CEO", description:"My own Company"}
-}
+//Example of built-in generic types(Array & Promise)
+const names: Array<string> = [] //is similar to define type as string[]
 
-// JS way
-// console.log(fetchedData.job && fetchedData.job.title);
+const promise:Promise<string> = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Promise resolved')
+    }, 2000)
+})
 
-// TS WAY
-//Qn marks infront of every property checks if it exists if it does continues to yhe next property
-console.log(fetchedData?.job?.title);
+//Generic Fn

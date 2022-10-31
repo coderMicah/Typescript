@@ -116,12 +116,12 @@
     "**/descriminated-union.ts",
     "**/typecasting.ts",
     "**/fn-overloads.ts",
-    "**/opyional-chaining.ts"
+    "**/optional-chaining.ts"
 
  ],
 //  only files you want to compile
 //  "files":[]
 
 //  things to be included when we want to compile
- "include":[]
+ "include":["**/app.ts"]
 }
